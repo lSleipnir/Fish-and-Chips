@@ -1,0 +1,163 @@
+body {
+	background :  url('img/fond.png');
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: rgba(69, 74, 84, 1);
+	font-size: 1em;
+	margin: 0 0 0 0;
+	line-height: 1.8em;
+}
+
+h1, h2, h3, h4, nav {
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	font-weight: normal;
+
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2{
+	font-size: 3.5em;
+}
+
+h3 {
+	font-size: 1.8em;
+}
+
+h4 {
+	font-size: 1.4em;
+	margin: 0 0 0 0;
+}
+
+h5, #news {
+	color: #B6DFDD;
+	font-size: 1em;
+}
+
+h5 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-align: left;
+	font-weight: normal;
+	margin: 0 0 0 0;
+}
+
+#titreaside {
+	text-align: left;
+}
+
+header {
+	background-color: rgb(52, 177, 178, 1);
+	display: block;
+	text-align: center;
+	border: 4px solid rgba(43, 154, 160, 1);
+	border-left: none;
+	border-right: none;
+	margin-top: 100px;
+}
+
+nav a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+}
+
+button {
+	background-color: rgb(52, 177, 178, 1);
+	border: 1px solid rgb(52, 177, 178, 1);
+	padding: 10px;
+	color: white;
+	float: right;
+	margin-bottom: 30px;
+}
+
+section {
+	padding: 20px;
+}
+
+article {
+	white-space: normal;
+}
+
+.width {
+	min-width: 800px;
+	max-width: 1100px;
+	margin: auto;
+} 
+
+.bloc1 {
+ 	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	margin: 10px;
+}
+
+.bloc2 {
+	display: inline-block;
+	vertical-align: top;
+	white-space: nowrap;
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+.bloc2 p {
+	font-size: 0.8em;
+	margin: 0 0 15px;
+}
+
+.fa-tint {
+	color: rgb(52, 177, 178, 1);
+}
+
+.clear {
+	clear: both;
+}
+
+.color {
+	color: rgb(52, 177, 178, 1);
+}
+
+#section2 img {
+	float: left;
+	border-radius: 50%;
+	margin: 0px 15px 0px 0px;
+}
+
+#section3 img {
+	float: right;
+	margin:  -80px -80px;
+}
+
+#section1 {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+}
+
+#section2 {
+	background-color: rgba(182, 222, 220, 1);
+	width: 68%;
+	padding: 30px;
+	padding-right: 60px;
+}
+
+
+#section3 {
+	background-color: rgb(52, 177, 178, 1);
+	border: 4px solid rgba(43, 154, 160, 1);
+	color: white;
+ 	width: 28%;
+ 	margin-left: 4%;
+}
+
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+}
